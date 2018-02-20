@@ -1,4 +1,5 @@
 {
+    "keyboard.dispatch": "keyCode",
     "vim.insertModeKeyBindings": [
         {
             "before": ["e", "u"],
@@ -33,6 +34,14 @@
             "after": ["w"]
         },
         {
+            "before": ["<"],
+            "after": ["W"]
+        },
+        {
+            "before": ["."],
+            "after": ["e"]
+        },
+        {
             "before": [">"],
             "after": ["E"]
         },
@@ -60,14 +69,14 @@
             "before": ["Y"],
             "after": ["T"]
         },
-        {
-            "before": ["g"],
-            "after": ["u"]
-        },
-        {
-            "before": ["G"],
-            "after": ["U"]
-        },
+        // {
+        //     "before": ["g"],
+        //     "after": ["u"]
+        // },
+        // {
+        //     "before": ["G"],
+        //     "after": ["U"]
+        // },
         {
             "before": ["c"],
             "after": ["i"]
@@ -92,14 +101,14 @@
             "before": ["L"],
             "after": ["P"]
         },
-        {
-            "before": ["/"],
-            "after": ["["]
-        },
-        {
-            "before": ["?"],
-            "after": ["{"]
-        },
+        // {
+        //     "before": ["/"],
+        //     "after": ["["]
+        // },
+        // {
+        //     "before": ["?"],
+        //     "after": ["{"]
+        // },
         {
             "before": ["="],
             "after": ["]"]
@@ -245,5 +254,11 @@
             "before": ["W"],
             "after": ["<"]
         }
-    ]
+    ],
+    "window.zoomLevel": 1,
+    "sublimeTextKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true,
+    "editor.renderWhitespace": "all"
 }
