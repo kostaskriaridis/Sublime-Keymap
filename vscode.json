@@ -1,0 +1,249 @@
+{
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["e", "u"],
+            "after": ["<esc>"]
+        }
+    ],
+    "vim.otherModesKeyBindings": [
+        {
+            "before": ["d"],
+            "after": ["<left>"]
+        },
+        {
+            "before": ["h"],
+            "after": ["<down>"]
+        },
+        {
+            "before": ["t"],
+            "after": ["<up>"]
+        },
+        {
+            "before": ["n"],
+            "after": ["<right>"]
+        }
+    ],
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": ["'"],
+            "after": ["q"]
+        },
+        {
+            "before": [","],
+            "after": ["w"]
+        },
+        {
+            "before": [">"],
+            "after": ["E"]
+        },
+        {
+            "before": ["p"],
+            "after": ["r"]
+        },
+        {
+            "before": ["P"],
+            "after": ["R"]
+        },
+        {
+            "before": ["p"],
+            "after": ["r"]
+        },
+        {
+            "before": ["P"],
+            "after": ["R"]
+        },
+        {
+            "before": ["y"],
+            "after": ["t"]
+        },
+        {
+            "before": ["Y"],
+            "after": ["T"]
+        },
+        {
+            "before": ["g"],
+            "after": ["u"]
+        },
+        {
+            "before": ["G"],
+            "after": ["U"]
+        },
+        {
+            "before": ["c"],
+            "after": ["i"]
+        },
+        {
+            "before": ["C"],
+            "after": ["I"]
+        },
+        {
+            "before": ["r"],
+            "after": ["o"]
+        },
+        {
+            "before": ["R"],
+            "after": ["O"]
+        },
+        {
+            "before": ["l"],
+            "after": ["p"]
+        },
+        {
+            "before": ["L"],
+            "after": ["P"]
+        },
+        {
+            "before": ["/"],
+            "after": ["["]
+        },
+        {
+            "before": ["?"],
+            "after": ["{"]
+        },
+        {
+            "before": ["="],
+            "after": ["]"]
+        },
+        {
+            "before": ["+"],
+            "after": ["}"]
+        },
+        {
+            "before": ["o"],
+            "after": ["s"]
+        },
+        {
+            "before": ["O"],
+            "after": ["S"]
+        },
+        {
+            "before": ["e"],
+            "after": ["d"]
+        },
+        {
+            "before": ["E"],
+            "after": ["D"]
+        },
+        {
+            "before": ["u"
+            ],
+            "after": ["f"]
+        },
+        {
+            "before": ["U"],
+            "after": ["F"]
+        },
+        {
+            "before": ["i"],
+            "after": ["g"]
+        },
+        {
+            "before": ["I"],
+            "after": ["G"]
+        },
+        {
+            "before": ["d"],
+            "after": ["h"]
+        },
+        {
+            "before": ["D"],
+            "after": ["H"]
+        },
+        {
+            "before": ["h"],
+            "after": ["j"]
+        },
+        {
+            "before": ["H"],
+            "after": ["J"]
+        },
+        {
+            "before": ["t"],
+            "after": ["k"]
+        },
+        {
+            "before": ["T"],
+            "after": ["K"]
+        },
+        {
+            "before": ["n"],
+            "after": ["l"]
+        },
+        {
+            "before": ["N"],
+            "after": ["L"]
+        },
+        {
+            "before": ["s"],
+            "after": [";"]
+        },
+        {
+            "before": ["S"],
+            "after": [":"]
+        },
+        {
+            "before": ["-"],
+            "after": ["'"]
+        },
+        {
+            "before": ["\\"],
+            "after": ["|"]
+        },
+        {
+            "before": [";"],
+            "after": ["z"]
+        },
+        {
+            "before": [":"],
+            "after": ["Z"]
+        },
+        {
+            "before": ["q"],
+            "after": ["x"]
+        },
+        {
+            "before": ["Q"],
+            "after": ["X"]
+        },
+        {
+            "before": ["j"],
+            "after": ["c"]
+        },
+        {
+            "before": ["J"],
+            "after": ["C"]
+        },
+        {
+            "before": ["k"],
+            "after": ["v"]
+        },
+        {
+            "before": ["K"],
+            "after": ["V"]
+        },
+        {
+            "before": ["x"],
+            "after": ["b"]
+        },
+        {
+            "before": ["X"],
+            "after": ["B"]
+        },
+        {
+            "before": ["b"],
+            "after": ["n"]
+        },
+        {
+            "before": ["B"],
+            "after": ["N"]
+        },
+        {
+            "before": ["w"],
+            "after": [","]
+        },
+        {
+            "before": ["W"],
+            "after": ["<"]
+        }
+    ]
+}
