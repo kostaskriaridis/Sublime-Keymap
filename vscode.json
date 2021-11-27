@@ -1,10 +1,12 @@
 {
-    "keyboard.dispatch": "keyCode",
+    "keyboard.dispatch": "code",
     "vim.easymotion": false,
     "vim.incsearch": true,
     "vim.useSystemClipboard": true,
     "vim.useCtrlKeys": true,
+    // "vim.debug.loggingLevelForConsole": "debug",
     "vim.insertModeKeyBindings": [
+
         {
             "before": [
                 "e",
@@ -22,7 +24,7 @@
                 "e"
             ],
             "commands": [
-                "editor.action.deleteLines"
+                "editor.action.clipboardCutAction"
             ],
             "when": "editorTextFocus"
         },
@@ -58,7 +60,6 @@
                 "cursorLineEnd"
             ]
         },
-
         {
             "before": [
                 "'"
@@ -155,6 +156,24 @@
                 "Y"
             ]
         },
+        /*
+        {
+            "before": [
+                "g"
+            ],
+            "after": [
+                "u"
+            ]
+        },
+        {
+            "before": [
+                "G"
+            ],
+            "after": [
+                "U"
+            ]
+        },
+        */
         {
             "before": [
                 "c"
@@ -541,6 +560,7 @@
         }
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
+
         {
             "before": [
                 "Tab"
@@ -669,6 +689,7 @@
                 "Y"
             ]
         },
+        /*
         {
             "before": [
                 "g"
@@ -685,6 +706,7 @@
                 "U"
             ]
         },
+        */
         {
             "before": [
                 "c"
@@ -1074,17 +1096,16 @@
     "git.enableSmartCommit": true,
     "files.autoSave": "onFocusChange",
     "git.confirmSync": false,
-    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "never",
     "explorer.confirmDragAndDrop": false,
     "typescript.updateImportsOnFileMove.enabled": "never",
     "editor.tabSize": 4,
     "editor.renderWhitespace": "all",
     "editor.fontSize": 22,
     "editor.scrollBeyondLastLine": true,
-    "editor.wordWrap": "on",
+    "editor.wordWrap": "off",
     "editor.formatOnPaste": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
-    "vim.commandLineModeKeyBindings": [],
     "explorer.confirmDelete": false
 }
